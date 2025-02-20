@@ -1,42 +1,293 @@
-*{
+* {}
 
-}
-li{
+/* ======== Commone CSS Start ========== */
+li {
     list-style: none;
 }
+
 a {
     text-decoration: none;
 }
+
+.description {
+    font-family: "Poppins", serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.title {
+    font-family: "Poppins", serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+}
+
 .Primary_button {
     border-radius: 40px;
     padding: 16px 48px;
     font-size: 16px;
     font-weight: 500;
     color: white;
-    border: 2px solid rgba(255, 255, 255, 0.20); 
+    border: 2px solid rgba(255, 255, 255, 0.20);
 }
+
 .Primary_button:hover {
     border: none;
-    background: #FCD980; 
+    background: #FCD980;
     color: #1C1E53;
 }
+
+/* ======== Commone CSS Start ========== */
+
 /* Navbar Start */
-nav{
+
+header {
     background: #1C1E53;
 }
-.nav-link{
+
+
+
+.nav-link {
     padding: 16px 48px;
     font-size: 16px;
     font-weight: 500;
     color: #BBBBCB;
+    font-family: "Poppins", serif;
 }
-.nav-link:hover{
+
+.nav-link:hover {
     color: #ffffff;
 }
-.navbar-nav{
+
+.navbar-nav {
     column-gap: 32px;
 }
-.collapse{
+
+.collapse {
     column-gap: 48px !important;
 }
+
+
+.navbar-toggler {
+    border: 3px solid white;
+}
+
+.navbar-toggler i {
+    color: white;
+}
+
+.navbar-nav .Primary_button {
+    font-family: "Poppins", serif;
+}
+
 /* Navbar End */
+/* Hero Section Start */
+
+.banner-title {
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 74px;
+    font-family: "Poppins", serif;
+    color: white;
+}
+
+.banner-description {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    font-family: "Poppins", serif;
+    color: rgba(255, 255, 255, .70);
+    width: 562px;
+    margin-top: 24px;
+    margin-bottom: 48px;
+}
+
+.banner .col-lg-6:first-child {
+    margin: 126px 0;
+}
+
+.banner-buttons a {
+    color: #1C1E53;
+}
+
+.banner-buttons .Primary_button:first-child {
+    background: #FCD980;
+    border: none;
+    font-family: "Manrope", serif;
+}
+
+.banner-buttons .Primary_button:first-child:hover {
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.20);
+}
+
+.banner-buttons .Primary_button:first-child:hover a {
+    color: #ffffff;
+}
+
+.view_button {
+    align-items: center;
+    margin-left: 40px;
+    position: relative;
+}
+
+.view_button a,
+i {
+    color: #ffffff;
+}
+
+.view_button i {
+    position: absolute;
+    top: 40%;
+    left: 105%;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.view_button:hover i {
+    top: 40%;
+    left: 120%;
+    transition: .4s;
+    opacity: 1;
+    visibility: visible;
+}
+
+.moving_elements_container {
+    position: relative;
+}
+
+.moving_elements_container .window {
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.moving_elements_container .link_line {
+    position: absolute;
+    top: 290px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.moving_elements_container .html_icone {
+    position: absolute;
+    top: 420px;
+    left: 57%;
+    transform: translate(-50%);
+    animation: html 1.5s infinite alternate;
+}
+
+.moving_elements_container .folder_icone {
+    position: absolute;
+    top: 245px;
+    left: 43%;
+    transform: translate(-50%);
+    animation: html 0.8s infinite alternate;
+}
+
+.moving_elements_container .css_icone {
+    position: absolute;
+    top: 280px;
+    left: 65%;
+    transform: translate(-50%);
+    animation: html 1.0s infinite alternate;
+}
+
+.moving_elements_container .list_image {
+    position: absolute;
+    top: 330px;
+    left: 84%;
+    transform: translate(-50%);
+    animation: list 1.5s infinite alternate;
+}
+
+.moving_elements_container .edite_images {
+    position: absolute;
+    top: 230px;
+    left: 14%;
+    transform: translate(-50%);
+    animation: edit 1s infinite alternate;
+}
+
+
+/* Hero Section end */
+
+
+
+/* footer Section Start */
+
+footer .information {
+    padding-top: 100px;
+    background: #1C1E53;
+}
+
+
+footer section .container .row:first-child .description {
+    color: #ffffffA8;
+    width: 400px;
+    margin-top: 22px;
+}
+
+footer section .container .row:last-child .description {
+    color: #ffffffA8;
+    width: 400px;
+    margin-top: 14px;
+    margin-bottom: 28px;
+}
+footer section .container .row:last-child .social_icons {
+    display: flex;
+    column-gap: 27px;
+}
+
+footer section .container .row:first-child .info {
+    background: #FCD980;
+    width: 80%;
+    padding-top: 16px;
+    padding-left: 37px;
+    column-gap: 30px;
+    margin-top: 86px;
+}
+
+footer section .container .row:first-child .info .p {
+    color: #282938A8;
+    font-family: "Poppins", serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+footer section .container .row:first-child .info h4 {
+    color: #282938;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Poppins", serif;
+    line-height: 32px;
+}
+
+footer section .container .row:last-child .title {
+    color: #ffffff;
+}
+
+.Copyright-inf .navbar-brand {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", serif;
+}
+
+.Copyright-info .nav-link {
+    padding: 16px 48px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+    font-family: "Poppins", serif;
+}
+
+
+.Copyright-inf .navbar-nav {
+    column-gap: 32px;
+}
+
+/* footer Section end */
