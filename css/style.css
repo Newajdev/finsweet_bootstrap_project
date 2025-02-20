@@ -210,9 +210,96 @@ i {
     transform: translate(-50%);
     animation: edit 1s infinite alternate;
 }
-
-
 /* Hero Section end */
+/* How we Work Section Start*/
+.how_we_work{
+    background: #F4F6FC;
+    padding: 128px 0;
+}
+.how_we_work .container .row .col-lg-5 .title{
+    color: #282938;
+}
+.how_we_work .container .row .col-lg-5 .description{
+    color: #282938a7;
+    width: 405px;
+    margin: 16px 0;
+}
+.how_we_work .container .row .col-lg-5 .view_button{
+    margin-left: 0;
+    position: relative;
+}
+.how_we_work .container .row .col-lg-5 .view_button a{
+    color: #2405F2;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+}
+.how_we_work .container .row .col-lg-5 .view_button i{
+    color: #2405F2;
+    position: absolute;
+    top: 50%;
+    left: 32%;
+    transform: translateY(-50%);
+    transform: .2s;
+}
+.how_we_work .container .row .col-lg-5 .view_button:hover i{
+    top: 50%;
+    left: 35%;
+}
+.how_we_work .container .row .col-lg-7 {
+    column-gap: 22px;
+    row-gap: 48px;
+}
+.how_we_work .container .row .col-lg-7 .work_stages .stage{
+    width: 50px;
+    height: 50px;
+    background-image: url(../images/pointer\ 1.png);
+    position: relative;
+}
+.how_we_work .container .row .col-lg-7 .work_stages .stage h4{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Poppins", serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    color: white;
+}
+.how_we_work .container .row .col-lg-7 .work_stages h3{
+    font-family: "Poppins", serif;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 48px;
+    color: #282938;
+    margin: 16px 0 8px 0;
+}
+.how_we_work .container .row .col-lg-7 .work_stages .description{
+    color: #282938a7;
+    width: 303px;
+}
+
+/* How we Work Section end */
+/* How we Work Section Start*/
+
+/* How we Work Section end */
+/* How we Work Section Start*/
+
+/* How we Work Section end */
+/* How we Work Section Start*/
+
+/* How we Work Section end */
+/* How we Work Section Start*/
+
+/* How we Work Section end */
+/* How we Work Section Start*/
+
+/* How we Work Section end */
+/* How we Work Section Start*/
+
+/* How we Work Section end */
 
 
 
