@@ -26,6 +26,13 @@ a {
     line-height: 64px;
 }
 
+.sub-title {
+    font-family: "Poppins", serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+}
+
 .Primary_button {
     border-radius: 40px;
     padding: 16px 48px;
@@ -314,7 +321,7 @@ i {
 }
 
 .view_our_project .container .project_container .view_button {
-    margin-right: 20px;
+    margin-right: 55px;
 }
 
 .view_our_project .container .project_container .view_button a {
@@ -374,6 +381,7 @@ i {
     color: #FCD980;
 
 }
+
 .view_our_project .container .row .col-lg-8 .projects_view .overly .view_button i {
     color: #FCD980;
     top: 50%;
@@ -386,12 +394,13 @@ i {
     left: 35%;
 
 }
-/* ---------------------------------------------------------- */
+
 .view_our_project .container .row .col-lg-4 {
     display: flex;
     flex-wrap: wrap;
     row-gap: 10px;
 }
+
 .view_our_project .container .row .col-lg-4 .projects_view {
     position: relative;
 }
@@ -434,6 +443,7 @@ i {
     color: #FCD980;
 
 }
+
 .view_our_project .container .row .col-lg-4 .projects_view .overly .view_button i {
     color: #FCD980;
     top: 50%;
@@ -447,15 +457,105 @@ i {
 
 }
 
-
-
 /* View our Project Section end */
-/* How we Work Section Start*/
+/* Features Section Start*/
+.features {
+    background: #F4F6FC;
+    padding: 128px 0px;
+}
 
-/* How we Work Section end */
-/* How we Work Section Start*/
+.features .container .content {
+    width: 630px;
+    margin: 0 auto;
+}
 
-/* How we Work Section end */
+.features .container .content .title {
+    text-align: center;
+    color: #282938;
+}
+
+.features .container .content .description {
+    text-align: center;
+    color: #282938;
+}
+
+.features .container .card_container {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 32px;
+    row-gap: 24px;
+    margin-top: 47px;
+}
+.features .container .card_container .card_box {
+ background: white;
+}
+.features .container .card_container .cards_content {
+ padding: 58px 32px 48px 48px ;
+}
+.features .container .card_container .cards_content .sub-title {
+ margin-top:22px ;
+}
+.features .container .card_container .cards_content .description {
+ width: 324px;
+ color: #282938a7;
+ margin-top:12px ;
+}
+
+
+/* Features Section end */
+/* clienst review Section Start*/
+.clienst_review {
+    background: #F4F6FC;
+    padding: 128px 0px;
+}
+.clienst_review .container .row .col-lg-4 .title {
+    font-family: "Poppins", serif;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 56px;
+    width: 327px;
+    color: #282938;
+}
+.clienst_review .container .row .col-lg-4 .description {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    width: 327px;
+    color: #282938a7;
+    margin-top: 16px;
+}
+
+.clienst_review .container .row .col-lg-8 .comments{
+    font-family: "Poppins", serif;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 48px;
+    color: #282938;
+    width: 843px;
+    margin-bottom: 48px;
+}
+.clienst_review .container .row .col-lg-8 .client_profile{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    column-gap: 14px;
+}
+.clienst_review .container .row .col-lg-8 .client_profile .img{
+    width: 52px;
+    height: 52px;
+    background-image: url(../images/client-image.png);
+}
+.clienst_review .container .row .col-lg-8 .client_profile .client_info .client_name{
+    font-size: 18px;
+    font-weight: 500;
+    
+    color: #282938;
+}
+.clienst_review .container .row .col-lg-8 .client_profile .client_info .client_title{
+    font-size: 12px;
+    font-weight: 400;
+    color: #282938;
+}
+/* clienst review Section end */
 /* How we Work Section Start*/
 
 /* How we Work Section end */
