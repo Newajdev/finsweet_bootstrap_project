@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    font-family: "Poppins", serif;
 }
 
 
@@ -15,7 +16,7 @@ a {
 .description {
     font-family: "Poppins", serif;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 28px;
 }
 
@@ -572,6 +573,38 @@ i {
 .faq {
     padding: 128px 0px;
 }
+.faq .container .row .col-lg-4 .description{
+    color: #2405F2;
+}
+.faq .container .row .col-lg-8 .accordion-header {
+    font-size: 24px; 
+    font-weight: 500;
+    line-height: 36px;   
+    color: #282938; 
+}
+.faq .container .row .col-lg-8 .accordion-header span {
+    font-size: 24px; 
+    font-weight: 500;
+    line-height: 36px;   
+    color: #2405F2;
+    margin-right: 60px; 
+}
+.faq .container .row .col-lg-8 .accordion-item .accordion-collapse {
+   width: 624px;
+   margin-left: 80px;
+}
+.faq .container .row .col-lg-8 .accordion-item .accordion-button {
+   padding: 32px;
+}
+.accordion-button::after{
+    background-image: url(../images/accordiamclose.png);
+    
+}
+
+.accordion-button:not(.collapsed)::after{
+    background-image: url(../images/accordiamopen.png);
+    
+}
 
 /* FAQ Work Section end */
 /* Send Inquiry Section Start*/
@@ -694,6 +727,7 @@ i {
 
     padding: 128px 0px;
 }
+
 
 .our_blog .container h2 {
     margin-bottom: 64px;
